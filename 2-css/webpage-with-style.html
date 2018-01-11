@@ -7,54 +7,30 @@
     <title>Webpage With Style</title>
     
     <style type="text/css">
+    .box {
+        height: 100px;
+        width: 100px;
+    }
         
         .red {
             
-            color:red;
+            background-color:red;
+            
+        }
+
+        .blue {
+            
+            background-color:blue;
+            
+        }
+
+        .green {
+            
+            background-color:green;
             
         }
         
-        .large {
-            
-            font-size: 200%;
-            
-        }
         
-        #green {
-            
-            color:green;
-        }
-    
-        .underlined {
-            
-            text-decoration: underline;
-            
-        }
-        
-        #first-section {
-            
-            color:blue;
-            background-color: pink;
-            width:200px;
-           margin: 100px 50px;
-           padding: 20px 30px 15px;
-           
-            
-            
-            
-        }
-        
-        #second-section {
-            
-            background-color: yellow;
-            width: 200px;
-            margin: 0px 20px;
-            
-            
-        }
-        p{
-            margin: 0;
-        }
        
         
     </style>
@@ -63,23 +39,9 @@
 
 <body>
     
-    <div id="first-section">
-
-        <p>The quick brown fox jumped over the lazy dog.</p>
-    
-        <p>Wow, I love internal CSS!</p>
-        
-    </div>
-    
-    <div id="second-section">
-        
-        <p id="green">This is some more text. <span class="underlined">And this text is underlined.</span></p>
-    
-        <h1 class="red">CSS is cool!</h1>
-        
-    </div>
-    
-    <p>This paragraph is not floated</p>
+   <div class="box red"></div>
+   <div class="box blue"></div>
+   <div class="box green"></div>
 
 </body>
 
